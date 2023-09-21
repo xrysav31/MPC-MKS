@@ -96,14 +96,15 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  static const uint8_t pole[] = {1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0,};
-	  for (uint8_t i = 0; i < sizeof(pole); i++) {
-		  if (pole[i] == 1) {
+	  uint32_t pole = 0b010100111011101110101010000000;
+	  for (uint8_t i = 0; i < 32; i++) {
+		  if (sos & 1) {
 			  LL_GPIO_SetOutputPin(LD2_GPIO_Port, LD2_Pin);
 		  } else {
 			  LL_GPIO_ResetOutputPin(LD2_GPIO_Port, LD2_Pin);
 		  }
-	      LL_mDelay(200);
+		  LL_mDelay(200);
+		  sos = sos >> 1;
 	  }
 
     /* USER CODE END WHILE */
