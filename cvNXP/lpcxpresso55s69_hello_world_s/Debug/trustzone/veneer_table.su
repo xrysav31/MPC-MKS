@@ -1,0 +1,3 @@
+c:\appz\nxp\mcuxpressoide_11.6.0_8187\ide\plugins\com.nxp.mcuxpresso.tools.win32_11.6.0.202112161359\tools\arm-none-eabi\include\string.h:119:9:strnlen	24	static
+../trustzone/veneer_table.c:43:45:DbgConsole_Printf_NSE	24	static
+../trustzone/veneer_table.c:65:48:StringCompare_NSE	48	static

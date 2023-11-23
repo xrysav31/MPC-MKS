@@ -1,0 +1,4 @@
+C:\Temp\MPC-MKS\lpcxpresso55s69_hello_world\drivers/fsl_clock.h:781:20:CLOCK_EnableClock	24	static
+C:\Temp\MPC-MKS\lpcxpresso55s69_hello_world\drivers/fsl_iocon.h:255:22:IOCON_PinMuxSet	24	static
+../board/pin_mux.c:29:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:60:6:BOARD_InitPins	24	static

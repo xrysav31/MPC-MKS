@@ -1,0 +1,4 @@
+C:\Temp\MPC-MKS\LPC55S69_Project1\drivers/fsl_clock.h:781:20:CLOCK_EnableClock	24	static
+C:\Temp\MPC-MKS\LPC55S69_Project1\drivers/fsl_iocon.h:255:22:IOCON_PinMuxSet	24	static
+../board/boards/pin_mux.c:36:6:BOARD_InitBootPins	8	static
+../board/boards/pin_mux.c:62:6:BOARD_InitPins	16	static

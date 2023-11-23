@@ -1,0 +1,4 @@
+../board/peripherals.c:136:13:CTIMER0_init	8	static
+../board/peripherals.c:197:13:CTIMER2_init	8	static
+../board/peripherals.c:207:6:BOARD_InitPeripherals	8	static
+../board/peripherals.c:217:6:BOARD_InitBootPeripherals	8	static
